@@ -58,8 +58,10 @@
     </div>
 
     <header>
-        <div class="relative shadow h-20 bg-primary dark:bg-gray-800 items-center flex flex-wrap z-30">
-
+        <div class="relative shadow h-20 bg-primary dark:bg-gray-800 flex flex-wrap z-30">
+            <div class="pt-1 mx-auto">
+                <a href="http://epuertotravelperu.com"><img src="{{asset('images/iconos/espana.png')}}" alt="" class="w-9"></a>
+            </div>
         </div>
     </header>
 
