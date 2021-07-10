@@ -98,12 +98,12 @@
                         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                         <div class="items-center md:flex toggle hidden">
                             <div class="flex flex-col md:flex-row lg:mx-6 md::gap-0 gap-2">
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out"  href="/nosotros">Nosotros</a>
+                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out"  href="/nosotros">About</a>
                                 <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/en-tours">Best Cusco Tours</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/informacion-de-viaje">Información</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/hoteles">Hoteles</a>
+                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/informacion-de-viaje">Information</a>
+                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/hoteles">Hotels</a>
                                 <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/f-a-q">FAQs</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/contacto">Contacto</a>
+                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/contacto">Contact</a>
                             </div>
 
                         </div>
@@ -120,29 +120,29 @@
         <div style="background-image: url('{{asset('images/machu-picchu.jpg')}}');" class="bg-fixed bg-center lg:bg-left bg-right px-2 py-10">
             @if (session('status'))
             <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
-                <strong class="font-bold">Gracias por contactar con nosotros</strong><br>
-                <span class="block sm:inline">Su mensaje fue enviado satisfactoriamente.</span>
+                <strong class="font-bold">Thank you for contacting us</strong><br>
+                <span class="block sm:inline">Your message was sent successfully.</span>
             </div>
             @endif
             <div class="lg:w-2/5 md:w-3/5 md:p-10 p-5 bg-gray-50 rounded md:ml-20 mt-4">
-                <h2 class="text-3xl mb-6 font-black text-primary">Formulario de Contacto</h2>
+                <h2 class="text-3xl mb-6 font-black text-primary">Contact Form</h2>
                 <form method="POST" action="{{route('contact_form')}}">
                 @csrf
                 <div class="mb-4">
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tNombre" type="text" placeholder="Nombre" required>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tNombre" type="text" placeholder="Name" required>
                 </div>
                 <div class="mb-4">
-                        <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tEmail" type="text" placeholder="Correo electrónico" required>
+                        <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tEmail" type="text" placeholder="Email" required>
                 </div>
                 <div class="mb-4">
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tCelular" type="text" placeholder="Número de celular">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tCelular" type="text" placeholder="Cell phone number">
                 </div>
                 <div class="mb-4">
-                    <textarea class="shadow form-textarea mt-1 block w-full border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tMensaje" placeholder="Mensaje" required></textarea>
+                    <textarea class="shadow form-textarea mt-1 block w-full border rounded w-full py-2 px-3 placeholder-primary placeholder-opacity-70 leading-tight focus:outline-none focus:shadow-outline" name="tMensaje" placeholder="Message" required></textarea>
                 </div>
                 <div class="flex items-center justify-center">
                     <button class="bg-secondary hover:bg-opacity-70 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                        Enviar
+                        Send
                     </button>
                 </div>
                 </form>
@@ -157,7 +157,7 @@
                         <span>Epuerto</span><span class="text-secondary"> Perú</span>
                     </div>
                     <p class="p-5 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas molestiae provident illo, eveniet qui deleniti.<p>
-                    <span class="font-semibold text-sm">Visita Nuestras redes sociales</span>
+                    <span class="font-semibold text-sm">Visit our social networks</span>
                     <div class="flex flex-row pt-5 px-3 gap-3">
                         <a href="https://www.facebook.com/EpuertoTravelPeru" target="_blank"><img src="{{asset('images/iconos/facebook.png')}}" class="h-10 w-10 transform hover:scale-125 transition duration-500 "></a>
                         <a href="https://www.youtube.com/user/EpuertoPeruTravelPer" target="_blank"><img src="{{asset('images/iconos/youtube.png')}}" class="h-10 w-10 transform hover:scale-125 transition duration-500"></a>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="text-white">
-                    <span class="font-semibold uppercase text-sm">Contacto</span>
+                    <span class="font-semibold uppercase text-sm">CONTACT US</span>
                     <div class="flex items-center my-3 gap-x-3 text-sm">
                         <i data-feather="phone" class="ml-6 text-secondary"></i>
                         <div class="grid grid-rows-2">
