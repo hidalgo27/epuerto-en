@@ -142,7 +142,7 @@
 
     </section>
 
-    <section class="flex flex-col lg:flex-row lg:mt-32 mt-10 mb-24 items-center">
+    <section class="flex flex-col lg:flex-row mb-24 items-center">
         <div class="lg:px-24 lg:py-32 p-16 bg-primary text-gray-50 shadow-xl lg:w-3/4 xl:w-3/4 2xl:w-1/2">
             <div class="relative">
                 <h4 class="lg:text-4xl md:text-5xl text-3xl text-white font-medium relative z-30 text-secondary">Tómese un descanso y vea</h4>
