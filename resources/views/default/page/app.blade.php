@@ -72,7 +72,7 @@
         </div>
     </header>
 
-    <nav class="banner-wrapper sticky -mt-10 lg:px-24 px-4 top-0 z-50">
+    <nav class="banner-wrapper sticky -mt-9 lg:px-24 px-4 top-0 z-50">
         <div class="banner">
             <!-- This example requires Tailwind CSS v2.0+ -->
             <div class="bg-white dark:bg-gray-800 rounded-xl shadow dark:bg-gray-800">
