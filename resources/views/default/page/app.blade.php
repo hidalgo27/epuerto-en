@@ -77,7 +77,7 @@
             <!-- This example requires Tailwind CSS v2.0+ -->
             <div class="bg-white dark:bg-gray-800 rounded-xl shadow dark:bg-gray-800">
                 <nav class="dark:bg-gray-800">
-                    <div class="container lg:px-6 px-3 py-6 mx-auto md:flex md:justify-between md:items-center">
+                    <div class="container lg:px-6 px-3 py-2 mx-auto md:flex md:justify-between md:items-center">
                         <div class="flex items-center justify-between">
                             <div>
                                 <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="/">
