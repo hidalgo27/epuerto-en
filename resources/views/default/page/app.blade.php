@@ -171,7 +171,7 @@
                     <div class="flex items-center my-3 gap-x-3 text-sm">
                         <i data-feather="phone" class="ml-6 text-secondary"></i>
                         <div class="grid grid-rows-2">
-                            <span>+51 84 228824</span>
+{{--                            <span>+51 84 228824</span>--}}
                             <span>+51 984 645720</span>
                         </div>
                     </div>
