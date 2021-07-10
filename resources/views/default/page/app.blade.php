@@ -81,7 +81,7 @@
                         <div class="flex items-center justify-between">
                             <div>
                                 <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="/">
-                                    <img src="{{asset('images/logo-epuerto.png')}}" alt="" class="w-40">
+                                    <img src="{{asset('images/logo-epuerto.png')}}" alt="" class="w-60">
                                 </a>
                             </div>
 
