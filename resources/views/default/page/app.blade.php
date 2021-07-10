@@ -59,8 +59,8 @@
 
     <header>
         <div class="relative flex justify-between shadow h-20 bg-primary dark:bg-gray-800 flex flex-wrap z-30">
-            <div class="pt-1 mx-auto">
-                <a href="http://epuertotravelperu.com"><img src="{{asset('images/iconos/espana.png')}}" alt="" class="w-9"></a>
+            <div class="pt-1">
+                <a href="http://epuertotravelperu.com"><img src="{{asset('images/iconos/espana.png')}}" alt="" class="w-9 ml-3"></a>
             </div>
             <div class="flex flex-row pt-2 px-3 gap-3">
                 <a href="https://www.facebook.com/EpuertoTravelPeru" target="_blank"><img src="{{asset('images/iconos/facebook.png')}}" class="h-7 w-7 transform hover:scale-125 transition duration-500 "></a>
