@@ -11,7 +11,7 @@
         <div class="relative grid mt-48 grid-cols-1 gap-12 place-items-center text-center justify-center text-white z-30">
             <div class="relative text-center">
                 <h1 class="text-xl mb-6 font-bold font-cinzel text-secondary">Epuerto Perú Travel & Tours</h1>
-                <h3 class="md:text-5xl text-3xl font-semibold tracking-widest text-gray-50">EXPERIENCIAS Y CONEXIONES <br> ÚNICAS COMO NINGUNA OTRA.</h3>
+                <h3 class="md:text-5xl text-3xl font-semibold tracking-widest text-gray-50">UNIQUE EXPERIENCES AND CONNECTIONS <br> LIKE NO OTHER.</h3>
                 <h4 class="md:text-9xl text-5xl font-bold inset-0 text-white text-opacity-10 absolute top-0">EPUERTO</h4>
             </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="md:col-span-4">
             <section class="lg:mb-20 lg:mt-24 md:my-16 my-10 lg:justify-between lg:flex">
                 <div class="relative">
-                    <h2 class="md:text-5xl text-3xl font-semibold z-30 text-primary relative">Consejos de Viajes</h2>
+                    <h2 class="md:text-5xl text-3xl font-semibold z-30 text-primary relative">Travel Tips</h2>
                     <h4 class="md:text-8xl text-5xl font-bold inset-0 text-gray-100 text-opacity-90 absolute z-10 md:-top-10 -top-2">EPUERTO</h4>
                 </div>
                 <div class="block pt-6 text-right lg:mr-10">
@@ -54,7 +54,11 @@
                         <img src="{{asset('images/iconos/airplane.png')}}">
                     </div>
                     <div class="col-span-4">
-                        <p class="p-5 text-gray-500">Perú es un país grande, por lo que muchos viajeros toman vuelos internos si tienen tiempo limitado. Hay cuatro grandes empresas que operan vuelos LanPerú (co-propiedad de LanChile), Taca Star Peru, aerolínea peruana. También hay un puñado de pequeñas aerolíneas con vuelos a destinos remotos en avioneta. Hay un impuesto de 18% en los vuelos nacionales y servicios.</p>
+                        <p class="p-5 text-gray-500">Peru is a big country, so many travelers take internal flights if they have limited time. There are four
+                            bigger companies operating flights (Aero Continente, LanPeru (co-owned by LanChile), Taca and
+                            Tans). There are also a handful of small airlines flying to remote destinations in light aircraft.
+                            There&#39;s an 18% tax on domestic flights and there&#39;s also a US$ 4.00 departure tax on domestic
+                            flights.</p>
                     </div>
                 </div>
                 <div class="grid md:grid-cols-5 grid-cols-1 md:gap-5 gap2 items-center shadow rounded border border-amber-200">
@@ -62,149 +66,174 @@
                         <img src="{{asset('images/iconos/bus.png')}}">
                     </div>
                     <div class="col-span-4">
-                        <p class="p-5 text-gray-500">Los autobuses públicos son el modo habitual de transporte a largas distancias. Son baratos, frecuentes y relativamente cómoda, al menos en las principales rutas. Al viajar entre ciudades, tener su pasaporte con usted, ya que tendrá que ser demostrado en los controles policiales. Robos a mano armada en los autobuses nocturnos no son desconocidos en el Perú, por lo que viajar en un autobús de día (o volar) si usted tiene la opción. Camiones menudo sirven como autobuses en zonas remotas. Los autobuses locales son lentos, barato y lleno de gente; cuando se quiere bajar simplemente gritar. Las tarifas de taxi deben ser regateado sobre; no hay taxis medidos. Ponerse de acuerdo sobre la tarifa de antemano.</p>
+                        <p class="p-5 text-gray-500">Public buses are the usual mode of transport over long distances. They are cheap, frequent and
+                            relatively comfortable, at least on major routes. When traveling between towns, have your passport
+                            with you, as it will need to be shown at police checkpoints. Armed robberies on night buses are not
+                            unheard of in Peru, so travel on a day bus (or fly) if you have the option. Trucks often double as
+                            buses in remote areas. Local buses are slow, cheap and crowded; when you want to get off just yell
+                            out. Taxi fares need to be haggled over; there are no metered cabs. Agree on the fare in advance.</p>
                     </div>
                 </div>
             </section>
             <section class="my-10 md:px-5">
                 <div class="mb-10">
                     <div id="informacion" class="flex text-primary items-center gap-3 pb-5">
-                        <i data-feather="arrow-right"></i><h3 class="md:text-2xl text-lg font-semibold">Información General</h3>
+                        <i data-feather="arrow-right"></i><h3 class="md:text-2xl text-lg font-semibold">General information</h3>
                     </div>
                     <div class="shadow mx-5">
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-1" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-1">Cuando ir</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-1">When to Go</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Temporada alta de turismo en el Perú es de junio a agosto, que es la estación seca en las tierras altas, y este es el mejor momento para ir si estás interesado en el senderismo. Los viajeros hacen visitar el altiplano durante todo el año, aunque los meses más húmedos, enero a abril, hacen senderismo fangoso. Muchas de las principales fiestas se producen en los meses más lluviosos y continúan sin disminuir, a pesar de las fuertes lluvias. Básicamente, no hay turismo en las tierras altas durante todo el año.
-                                <br>En la costa, los peruanos visitan las playas durante los meses soleados desde finales de diciembre hasta marzo, aunque pocas playas son particularmente atractivos. El resto del año, la costa se viste de niebla. En las selvas tropicales del este, llueve, naturalmente, mucho. Los meses más lluviosos son de diciembre a abril, aunque los viajeros visitan durante todo el año, ya que rara vez llueve durante más de unas pocas horas y todavía hay un montón de sol para disfrutar.</p>
+                                <p class="p-5 text-gray-500">Peru&#39;s peak tourist season is from June to August, which is the dry season in the highlands, and this
+                                    is the best time to go if you&#39;re interested in hiking. Travelers do visit the highlands year-round,
+                                    though the wettest months, January to April, make trekking muddy. Many of the major fiestas occur
+                                    in the wettest months and continue undiminished in spite of heavy rain. Basically, there is tourism
+                                    in the highlands throughout the year.
+                                <br>On the coast, Peruvians visit the beaches during the sunny months from late December through
+                                March, although few beaches are particularly enticing. The rest of the year, the coast is clothed in
+                                mist. In the eastern rainforests, it naturally rains a lot. The wettest months are December through
+                                April, though travelers visit year-round since it rarely rains for more than a few hours and there&#39;s
+                                still plenty of sunshine to enjoy.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-2" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-2">Que traer</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-2">What to Bring</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100 ">
-                                <p class="p-5 text-gray-500">Debido a que el Perú es un país de tal diversidad, lo que aportan depende de sus planes de viaje. Llevar ropa de abrigo para las montañas, ropa ligera para la selva y una combinación de los desiertos costeros, que son cálidos durante el día y fresco por la noche. Los artículos que son difíciles de obtener en el país incluyen: suministros médicos personales, un cinturón de dinero, bloqueador solar, buenos libros en su idioma nativo y cualquier equipo eléctrico que utilice.
-                                <br>Otras sugerencias incluyen: algo pequeño y típico de su país de origen (para su familia huésped). Diccionario; Libro de gramática española en su propio idioma (no hay libros de gramática española o Diccionarios disponibles en Cusco); correos electrónicos; una guía, nuevos libros de Inglés (no hay buenas librerías de todo). Si usted planea hacer el Camino Inca u otro viaje de campamento sugerimos traer un jumper caliente / suéter; impermeable; caminar zapatos / botas de montaña; saco de dormir (para Camino Inca, aunque éstas se pueden alquilar también); tabletas de purificación de agua (se pueden comprar en Cusco); cuchillo de bolsillo; antorcha / linterna y equipo porque hay una escasez de suministros de trekking en el país. Para las tabletas de la selva excursiones malaria, mosquitero y un impermeable (todos pueden ser comprados en Cusco).</p>
+                                <p class="p-5 text-gray-500">Because Peru is a country of such diversity, what you bring depends on your travel plans. Bring
+                                    warm clothes for the mountains, light clothes for the jungle and a combination for the coastal
+                                    deserts, which are warm by day and cool at night. Items that are difficult to obtain in the country
+                                    include: personal medical supplies, a money belt, sunscreen, good books in your native language
+                                    and any electrical equipment you use.
+                                <br>Some other suggestions include: something small and typical from your home country (for your
+                                guest family). Dictionary; Spanish grammar book in your own language (there are no Spanish
+                                Grammar books or Dictionaries available in Cusco); email addresses; a guidebook, English novel
+                                books (no good bookstores around). If you plan to do the Inca Trail or another camping trip we
+                                suggest bringing a warm jumper/sweater; raincoat; walking shoes/hiking boots; sleeping bag (for
+                                Inca Trail, although these can be rented as well); water purification tablets (can be bought in Cusco
+                                as well); pocket knife; torch/flashlight and equipment because there is a shortage of trekking
+                                supplies in the country. For the jungle excursions malaria tablets, mosquito net and a raincoat (all
+                                can be bought in Cusco as well).</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-3" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-3">Dinero en Perú</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-3">Money in Peru</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">La moneda de Perú es el Nuevo Sol. Hay 100 centavos a cada sol. En el momento de la escritura US $ 1,00 es equivalente a S / .2.68. Hay un número de cajeros automáticos que aceptan tarjetas de crédito y hay numerosas “Casas de Cambio” en cheques de viajero pueden ser cambiados o US Cash se pueden cambiar. También hay cajero automático que exceptúa Eurocard, que son el Banco Latino y el Banco del Sur. Es útil para llegar con dólares americanos. Cuando cambie dinero, tenga cuidado de que no se distrae con cualquier cosa para hacerte perder la cuenta de lo que te han dado.</p>
+                                <p class="p-5 text-gray-500">The currency of Peru is the Nuevo Sol. There are 100 centavos to each sol. At the time of writing US$ 1.00 was equal to S/.3.95. There are a number of automatic teller machines that take credit cards and there are numerous "Casas de Cambio" where Travelers Checks may be cashed or US Cash may be changed. There are also ATM that excepts Euro cards, which are Banco Latino and Banco del Sur. It is useful to arrive with American dollars. When changing money, be careful that you are not distracted with anything to make you lose count of what you have been given.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-4" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-4">Gastos en Perú</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-4">Expenses in Perú</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">La siguiente lista te da una idea de lo que es posible que desee planificar durante su estancia en Cusco. EEUU Taxis $ 3.00; transporte local US $ 1.20; un menú fijo / menú en el restaurante US $ 4.00; una cerveza en un club nocturno US $ 3.00; un café en una cafetería de moda / bar $ 1.50; una pizza en un restaurante agradable US $ 5.00; llamada telefónica internacional $ 0.50 por minuto; servicio de lavandería US $ 2.00 por kilo; larga distancia de transporte local de US $ 13.00 por cerca de 15 horas; servicio de correo electrónico US $ 0.50 / hr.
-                                <br>Si usted está planeando un viaje en el Perú después del Curso de español, hay que considerar un US $ 15-20 por un presupuesto minúsculo incluyendo alojamiento de bajo presupuesto, todas las comidas y gastos de viaje. Sin embargo, hay un par de excursiones caros es posible que desee tomar (por ejemplo Machu Picchu, rafting, etc.).</p>
+                                <p class="p-5 text-gray-500">The following list gives you some indication of what you may wish to plan for during your stay in Cusco. Taxis US$ 1.5; local transport US$ 0.20; a set meal/menu in restaurant US$ 5.00; a beer in a nightclub US$ 5.00; a coffee in a trendy caf/bar $3.00; a pizza in a nice restaurant US$ 15.00; international phone call $0.50 per minute; laundry service US$ 3.00 per kilo; long distance local transport US$ 13.00 for about 15 hours; email service US$ 0.50/hr.
+                                <br>If you are planning a trip in Peru after the Spanish Course, you have to consider a US$ 15-20 for a tiny budget including low-budget accommodations, all your meals and travel expenses. However, there are a couple of expensive tours you might want to take (e.g. Machu Picchu, river rafting, etc.).</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-5" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-5">Clima en el Perú</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-5">Climate in Perú</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">La temporada de lluvias en Cusco se produce desde diciembre hasta abril Los estudiantes todavía pueden caminar por el Camino del Inca, sin embargo, puede ser húmedo a veces. Durante la estación seca, las temperaturas son calurosos durante el día y muy frío por la noche. Se recomienda que los estudiantes traen un abrigo de lluvia y un buen abrigo para las noches y dentro de edificios, ya que no disponen de calefacción. Durante la estación seca se pone caliente durante el día en el sol, pero siempre es frío durante las noches, en el interior de los edificios y en la sombra. En mayo, junio y julio la temperatura realmente cae y se pone bastante frío. Sin embargo, es (casi) siempre soleado durante el día.</p>
+                                <p class="p-5 text-gray-500">The rainy season in Cusco occurs from December through April Students may still walk the Inca Trail, however, it may be wet at times. During the dry season, temperatures are hot during the day and very cold at night. It is recommended that students bring a wet weather coat and a warm coat for the nights and inside buildings, as they don't have heating. During the dry season it gets hot during the day in the sun, but it is always chilly during the nights, inside the buildings and in the shade. In May, June and July temperature really drops and it gets pretty cold. However, it is (almost) always sunny during the day.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-6"type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-6">Comunicaciones</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-6">Communications</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Por lo general, va a ser ningún problema para ponerse en contacto con el hogar, ya sea por teléfono, correo, fax o internet. Las llamadas de larga distancia son alrededor de US $ 3.00 por minuto, pero hay posibilidades más baratas con Net2Phone etc. Hay un montón de cafés cibernéticos en Cusco, el precio de una hora de internet es de aproximadamente US $ 1,00</p>
+                                <p class="p-5 text-gray-500">Generally, it'll be no problem to contact home, either by phone, mail, fax or internet. Long distance phone calls are about US$ 3.00 per minute but there are cheaper possibilities with Net2Phone etc. There are lots of cyber cafes in Cusco, the price for an hour of internet is about US$ 1.00.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-7" type="radio" name="tabs2">
                             <label class="block p-4 cursor-pointer" for="tab-multi-7">Visas</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">La visa no es necesaria para la mayoría de los países occidentales (pero por favor, consulte con la Embajada del Perú en su país de origen). La visa de turista obtendrá a su llegada al aeropuerto de Lima, le permitirá 90 días en Perú. Se le permite un máximo de tres extensiones de 30 días para los de hasta 180 días (6 meses) en Perú. Cada extensión le costará alrededor de US $ 25.00. Es posible que desee considerar sólo cruzar la frontera (Bolivia o Chile), si usted necesita más tiempo en el Perú. Esto te tomará unos dos días y se le garantiza otros 90 días.</p>
+                                <p class="p-5 text-gray-500">No visa is necessary for most western countries (but please check with the Peruvian Embassy in your home country). The tourist visa you will get upon arrival at Lima Airport, will allow you 90 days in Peru. You are allowed a maximum of three 30-day extensions for up 180 days (6 months) in Peru. Each extension will cost you about US$ 25.00. You might want to consider just crossing the (Bolivian or Chilean) border, if you need more time in Peru. It'll take you about two days and you'll be guaranteed another 90 days.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-8" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-8">De viaje</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-8">Traveling</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">En general, es bastante seguro y relativamente fácil de recorrer por su cuenta en el Perú. Hay autobuses, aviones, taxis, etc. de todo el país, así como hoteles de todas las categorías. Hay todo tipo de viajeros y turistas alrededor y será fácil de conocer a otras personas y tener un gran viaje lleno de aventura, cultura y nuevos amigos.</p>
+                                <p class="p-5 text-gray-500">Generally, it is pretty safe and relatively easy to travel around by yourself in Peru. There are buses, planes, taxis etc. all over the country as well as hotels of all categories. There are all kinds of travelers and tourists around and it will be easy to meet other people and have a great trip full of adventure, culture and new friends.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-9" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-9">Lavandería</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-9">Laundry</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Hay varios servicios de lavandería en la ciudad que cobran alrededor de US $ 3.00 por kilo para lavar y doblar, su ropa normalmente en 24 horas.</p>
+                                <p class="p-5 text-gray-500">There are several laundry services in town that charge about US$ 3.00 per kilo to wash and fold, your clothes normally in 24 hours.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-10"  type="radio" name="tabs2">
                             <label class="block p-4 cursor-pointer" for="tab-multi-10">Taxis</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Son innumerables. Pueden ser marcados por gritar taxi o agitando. A su llegada al aeropuerto de Lima una gorra oficial podría cobrarle US $ 20.00 o incluso US $ 25.00. Desde cualquier punto de la ciudad al aeropuerto es más barato, alrededor de US $ 8,00 (un taxi del oficial). Dentro de la ciudad (Lima), la tasa varía de US $ 3.00 hasta US $ 8,00. Fuera de Lima, las tarifas son más baratas. En el Cusco, por ejemplo, los taxis cobran S /. 3.00 durante la / día y S. 3.50 después de las 22:00 pm dentro de la ciudad. Un viaje en taxi desde o hasta el aeropuerto es más caro. Recomendamos taxis única oficiales especialmente durante las noches. El costo es el mismo y que puede ser reconocido porque tienen un número de teléfono en el techo.</p>
+                                <p class="p-5 text-gray-500">Are innumerable. They can be flagged down by shouting taxi or by waving. Upon arrival at Lima airport an official cap might charge you US$ 20.00 or even US$ 25.00. From any point of the city to the airport is less expensive, about US$ 8.00 (an unofficial taxi). Within the city (Lima), the rate will vary from US$ 3.00 till US$ 8.00. Out of Lima, fares are cheaper. In Cusco, for example, taxis charge S/. 2.00 during the day and S/. 3.00 after 22:00 pm within the city. A taxi ride from or to the airport is more expensive. We recommend only official taxis especially during the nights. The cost is the same and they can be recognized because they have a phone number on the roof. </p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-11"  type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-11">Baños</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-11">Toilets</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Aseos peruanos raramente tienen papel higiénico, incluso en los restaurantes. Lo mejor es tomar su propia MINIROLL alrededor con usted. Dont poner papel en el inodoro, ya que lo bloqueará. Los recipientes se proporcionan, incluso en las casas, y éstas se vacían con regularidad.</p>
+                                <p class="p-5 text-gray-500">Peruvian toilets rarely have toilet paper, even in the restaurants. It is best to take your own miniroll around with you. Don’t put paper down the toilet as it will block it. Receptacles are provided, even in the houses, and these are regularly emptied.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-12" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-12">Compras</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-12">Shopping</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">Los productos comprados en tiendas y restaurantes tienen precios fijos y no pueden ser negociado. Sin embargo, los productos en la calle o en el mercado son bargainable. Peruanos han aprendido que los turistas tienen más dinero que ellos mismos lo será a veces poner sus precios cuando te ven venir. Si usted piensa que está siendo estafado después de empezar a caminar. Si usted don `t llaman de vuelta con un precio más bajo, entonces usted probablemente ha alcanzado un precio tan bajo como van a ir.
-                                <br>La mejor calidad y el valor se encuentra en los productos hechos a mano. Esto se aplica particularmente a oro, plata y cobre de obras, así como ricos productos textiles del Perú. Estos incluyen prendas de alpaca y tapices tejidos. Productos de alpaca son bien vale la pena la compra, siempre y cuando usted está dispuesto a mano lavarlos con gran cuidado. Los vendedores a menudo le dicen a sus productos están hechos de beb alpaca. Esto no quiere decir alpacas bebé, sino que se refiere a la lana tomado de la garganta del animal, donde se encuentra en su más fino y más suave. La mayoría de los puentes de lana de alpaca se venden como son en realidad por lo general una mezcla más resistente de lana de llama y las fibras sintéticas. Muchos turistas también tienen reproducciones de casas de cerámica precolombina, con calabazas siendo el favorito.</p>
+                                <p class="p-5 text-gray-500">Items purchased in shops and restaurants have fixed prices and cannot be bargained for. However, items on the street or in the market are bargain able. Peruvians have learnt that the tourists have more money than themselves so will sometimes put up their prices when they see you coming. If you think you are being conned then start to walk away. If they don`t call you back with a lower price then you have probably reached as low as they will go.
+                                <br>The best quality and value lies in handcrafted products. This particularly applies to gold, silver and copper works, as well as Peru's rich textile goods. These include alpaca garments and woven tapestries. Alpaca products are well worth buying, as long as you are prepared to hand-wash them with great care. Vendors will often tell you their goods are made from alpaca beb. This does not mean baby alpacas, but refers to the wool taken from the throat of the animal, where it is at its finest and softest. Most woolen jumpers sold as alpaca are actually usually a more hardwearing mix of llama wool and synthetic fibers. Many tourists also take home reproductions of pre-Columbian ceramics, with gourds being the favorite.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-13" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-13">Horas de oficina</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-13">Business Hours</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5 text-gray-500">La mayoría de las tiendas están abiertas 10 a.m.-21:00 pm con un descanso largo almuerzo entre las 13:00 pm y las 16:00 pm. Los bancos están abiertos sólo por la mañana 09 a.m.-13:00 y de 4:30 a 18:00 de la tarde.</p>
+                                <p class="p-5 text-gray-500">Most stores are open from 10:00am to 21:00 pm with a long lunch break between 13:00 pm and 16:00 pm. Banks are open only in the morning from 9 am to 13:00 and from 4:30 till 18:00 in the afternoon.</p>
                             </div>
                         </div>
                     </div>
                     <div id="salud" class="flex text-primary items-center gap-3 py-5">
-                        <i data-feather="arrow-right"></i><h3 class="md:text-2xl text-lg font-semibold">Salud y seguridad</h3>
+                        <i data-feather="arrow-right"></i><h3 class="md:text-2xl text-lg font-semibold">Health and safety</h3>
                     </div>
                     <div class="shadow mx-5">
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0 " id="tab-multi-one" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-one">Cuidado de la Salud</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-one">Health Care</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5">Se recomienda que antes de la llegada, los estudiantes realizan un minucioso examen médico, la compra de seguro de salud y consulte a su médico acerca de las inyecciones necesarias. No hay malaria en el área de Cusco!</p>
+                                <p class="p-5">It is recommended that prior to arrival, students undertake a thorough medical examination, purchase health insurance and consult your physician about the necessary injections. There is no malaria in the Cusco area!</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-two" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-two">Quemadura del sol</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-two">Sunburn</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100 ">
-                                <p class="p-5">No se olvide que el sol es mucho más fuerte en latitudes tropicales. Es fácil de conseguir quemado por el sol, incluso cuando está nublado. Tome precauciones adicionales para evitar ser quemado por el sol: use un sombrero y usar protector solar. Trate de no demasiado pasar demasiado tiempo en el sol directo, especialmente 11:00-14:00. Tenga especial cuidado cuando se va de excursión en barco como el viento y el reflejo del sol en el agua aumenta el riesgo de quemaduras solares. Bebidas mucha agua.</p>
+                                <p class="p-5">Don`t forget that the sun is much stronger at tropical latitudes. It is easy to get sunburnt even when it is overcast. Take extra precautions to avoid being sunburnt: wear a hat and use sunscreen. Try not too spend too much time in the direct sun, especially between 11:00 and 14:00. Be especially careful when going on boat trips as the wind and reflection of sun from the water will increase the risk of sunburn. Drinks lots of water.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-three" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-three">Problemas estomacales</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-three">Stomach Upsets</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5">Los síntomas son náuseas, vómitos y diarrea. La mejor precaución contra esto es evitar las verduras crudas, ensaladas y agua del grifo. Coma sólo fruta que requiere pelado. Si viven con una familia de acogida toda la comida y las bebidas se han preparado adecuadamente, por lo que disfrutar. A pesar de las precauciones, muchos visitantes se ven afectados por un malestar estomacal. Si se ve afectado descansar mucho y beber mucho líquido. Soluciones de rehidratación oral (SRO) están disponibles en farmacias y pueden ayudarle a reemplazar los líquidos perdidos. Si está afectada por más de tres días, y / o si tiene fiebre, usted debe visitar a un médico.</p>
+                                <p class="p-5">Symptoms are nausea, vomiting and diarrhea. The best precaution against this is to avoid uncooked vegetables, salads and tap water. Eat only fruit that requires peeling. If living with a host family all your food and drinks will have been properly prepared, so indulge. Despite precautions, many visitors are affected by an upset stomach. If you are affected get plenty of rest and drink lots of liquids. Oral Rehydration Solutions (ORS) are available from pharmacists and can help you to replace the fluids lost. If you are affected for more than three days and/or you have a fever, you should visit a doctor.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-four" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-four">Vertigo</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-four">Altitude Sickness</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5">Algunas personas experimentan alguna incomodidad a esta altitud. Recomendamos al menos un día de descanso antes del comienzo de las clases. Los síntomas son dolores de cabeza, mareos, malestar estomacal y cansancio. Estos síntomas se pueden manejar mediante la reducción del consumo de alcohol; beber muchos líquidos; comer comidas ligeras y mucho descanso.</p>
+                                <p class="p-5">Some people experience some discomfort at this altitude. We recommend at least a day of rest prior to the commencement of classes. The symptoms are headaches, dizziness, stomach upset and tiredness. These symptoms can be managed by reducing the alcohol intake; drinking lots of fluids; eating light meals and getting plenty of rest.</p>
                             </div>
                         </div>
                         <div class="tab overflow-hidden border-t">
                             <input class="absolute opacity-0" id="tab-multi-five" type="radio" name="tabs2">
-                            <label class="block p-4 cursor-pointer" for="tab-multi-five">Cuestiones de Seguridad</label>
+                            <label class="block p-4 cursor-pointer" for="tab-multi-five">Safety Issues</label>
                             <div class="tab-content overflow-hidden border-l-2 bg-gray-100">
-                                <p class="p-5">Cusco es una ciudad relativamente segura, pero como el centro urbano ha crecido, también lo ha hecho la pequeña delincuencia. Por desgracia, los carteristas y ladrones se han vuelto más y más común en Lima y Cusco y uno debe tomar precauciones, como no tomar un taxi solo por la noche, ni de andar por la calle solo después de las 22:00. Objetos como dinero y pasaportes no deben dejarse abierta en su habitación.</p>
+                                <p class="p-5">Cusco is a relatively safe city but as the urban center have swollen, so has petty crime. Unfortunately, pickpockets and thieves have become more and more common in Lima and Cusco and one should take precautions such as not taking a taxi alone at night nor walking around on the street alone after 22:00. Objects such as money and passports should not be left openly in your room.</p>
                             </div>
                         </div>
                     </div>
@@ -212,8 +241,8 @@
             </section>
             <section id="restaurantes" class="md:mt-24 mt-16 lg:justify-between lg:flex">
                 <div class="relative">
-                    <h2 class="md:text-5xl text-3xl font-semibold z-30 text-primary relative">Restaurantes de Cusco</h2>
-                    <h4 class="md:text-8xl text-5xl font-bold inset-0 text-gray-100 text-opacity-90 absolute z-10 md:-top-10 -top-2">TOURS</h4>
+                    <h2 class="md:text-5xl text-3xl font-semibold z-30 text-primary relative">Cusco Restaurants</h2>
+                    <h4 class="md:text-8xl text-5xl font-bold inset-0 text-gray-100 text-opacity-90 absolute z-10 md:-top-10 -top-2">EPUERTO</h4>
                 </div>
             </section>
             <section class="md:my-16 my-8">
@@ -228,7 +257,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 262992</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$10</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Esto es, según muchos, la mejor comida de la ciudad con un poco de una excelente cocina “novoandina” en la oferta. Esto significa que utilizan ingredientes nativos y recetas andinas revivió junto a técnicas de cocina más modernos e innovadores para crear excelentes e interesantes opciones para comer. También tienen una amplia selección de platos vegetarianos, pasta casera abundante, delicioso café y pasteles para llevar suntuosos para darse un festín. Buen servicio está a la mano con un personal atento.</p>
+                        <p class="text-sm mt-4 text-gray-700">This is, according to many, the best food in town with a bit of excellent "Novo Andean" cuisine on offer. This means that they use native ingredients and revived Andean recipes alongside more modern and innovative cooking techniques to create excellent and interesting dining options. They also have a wide selection of vegetarian dishes, hearty homemade pasta, delicious coffee and sumptuous take-out pastries for a feast. Good service is on hand with attentive staff.</p>
                     </div>
                     <div class="bg-primary bg-opacity-10 shadow-lg rounded p-6 transform hover:scale-105 transition duration-500">
                         <span class="text-primary font-semibold text-lg">Tunupa</span>
@@ -240,7 +269,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 252963</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$10</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Esta es otra ofrenda en la Plaza de Armas, con una gran variedad de alimentos. Las opciones incluyen una fabulosa cena buffet con carne, mariscos, verduras y comida tradicional peruana. Por lo general atiende a grupos significado por lo general hay un ambiente animado y jovial. Hay un espectáculo de la noche todos los días con los músicos andinos de colores y bailarines o, alternativamente, hay asientos y mesas con una excelente vista de la Plaza de Armas de Cuzco.</p>
+                        <p class="text-sm mt-4 text-gray-700">This is another offering in the Plaza de Armas, with a great variety of foods. Options include a fabulous buffet dinner with meat, seafood, vegetables, and traditional Peruvian food. It usually caters to groups meaning there is usually a lively and jovial atmosphere. There is an evening show every day with colorful Andean musicians and dancers or alternatively there are seats and tables with an excellent view of the Plaza de Armas in Cuzco.</p>
                     </div>
                     <div class="bg-primary bg-opacity-10 shadow-lg rounded p-6 transform hover:scale-105 transition duration-500">
                         <span class="text-primary font-semibold text-lg">Inkanto</span>
@@ -252,7 +281,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 222642</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$11</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Decoración Pristine recibe a los huéspedes a Inkanto con manteles blancos y muebles de buena calidad. La comida no me decepcionó – esto es principalmente la cocina italiana con una fantástica pizza, pasta y risotto suficiente para hacer la boca agua sin siquiera considerar los panecillos recién horneados con aceite de oliva y vinagre balsámico que vienen como un aperitivo. Una gran opción para aquellos que buscan un poco de buena comida italiana en la plaza.</p>
+                        <p class="text-sm mt-4 text-gray-700">Pristine decor welcomes guests to Inkanto with white tablecloths and fine quality furniture. The food did not disappoint - this is primarily Italian cuisine with fantastic pizza, pasta and enough risotto to make your mouth water without even considering the freshly baked rolls with olive oil and balsamic vinegar that come as an appetizer. A great option for those looking for some good Italian food in the square.</p>
                     </div>
                     <div class="bg-primary bg-opacity-10 shadow-lg rounded p-6 transform hover:scale-105 transition duration-500">
                         <span class="text-primary font-semibold text-lg">Cicciolina</span>
@@ -264,7 +293,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 239510</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$11</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Esta es otra oferta mediterránea con comida italiana de nuevo teniendo lugar central, pero de ninguna manera es la opción exclusiva. Aperitivos sabrosos son los mariscos marinados en leche de coco con especias asiáticas. Los platos principales incluyen pastas italianas – particularmente buen plato es el Cordero Ragu que tiene una salsa excepcional. Especias marroquíes también cuentan e incluso el número peruana extraño – Causa de Cuy es un delicioso plato de patatas en puré con cal fresca y – usted lo adivinó – Guinea Pig, un manjar Andina que se ha comido por siglos.</p>
+                        <p class="text-sm mt-4 text-gray-700">This is another Mediterranean offering with Italian food again taking center stage, but is by no means the exclusive option. Tasty appetizers are seafood marinated in coconut milk with Asian spices. The main dishes include Italian pasta - a particularly good dish is the Lamb Ragu which has an exceptional sauce. Moroccan spices count too and even the odd Peruvian number - Causa de Cuy is a delicious dish of mashed potatoes with fresh lime and - you guessed it - Guinea Pig, an Andean delicacy that has been eaten for centuries.</p>
                     </div>
                     <div class="bg-primary bg-opacity-10 shadow-lg rounded p-6 transform hover:scale-105 transition duration-500">
                         <span class="text-primary font-semibold text-lg">Granja de Heidi</span>
@@ -276,7 +305,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 238383</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$4 - $5</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Un restaurante recién salida de la finca con los mejores ingredientes locales de calidad, Granja de Heidi es un gran restaurante de valor en el distrito de San Blas de Cuzco. Maravillosamente comida casera saludable es la orden del día con una amplia gama de platos de inspiración local infundidos con el estilo de la agradable alemán chef y propietario. Las opciones vegetarianas también están disponibles, con el rocoto relleno (relleno de pimienta de chiles rojos) un golpe definitivo para aquellos que pueden manejar sus especias. Los postres son simplemente exquisito – probar el chocolate fudge de chocolate que le dejará asombrado de cómo en realidad se puede hacer chocolate para degustar tan bueno.</p>
+                        <p class="text-sm mt-4 text-gray-700">A fresh off the farm restaurant with the best quality local ingredients, Heidi's Granja is a great value restaurant in the San Blas district of Cuzco. Wonderfully healthy home cooking is the order of the day with a wide range of locally inspired dishes infused with the flair of the personable German chef and owner. Vegetarian options are also available, with the rocoto rellena (stuffed with red chilli pepper) a definite hit for those who can handle their spices. The desserts are simply exquisite - try the chocolate fudge that will leave you in awe of how you can actually make chocolate to taste so good.</p>
                     </div>
                     <div class="bg-primary bg-opacity-10 shadow-lg rounded p-6 transform hover:scale-105 transition duration-500">
                         <span class="text-primary font-semibold text-lg">Chez Maggy</span>
@@ -288,7 +317,7 @@
                             <div class="flex gap-2 items-center"><i data-feather="phone" class="w-3 text-secondary"></i>(084) 234861</div>
                             <div class="flex gap-2 items-center"><i data-feather="dollar-sign" class="w-3 text-secondary"></i>$5</div>
                         </div>
-                        <p class="text-sm mt-4 text-gray-700">Maggy Siempre tiene un gran ambiente entre los mochileros y ofrece una gran comida de valor con la comida peruana, mexicana e italiana todo en el menú. Los favoritos particulares son la pizza y los platos de ravioles, una excelente toma en el original italiano con sus propias influencias y sabores andinos distintos. Hay tres lugares en la calle Procuradores aunque el último de la izquierda tiene probablemente el personaje más auténtico y rústico.</p>
+                        <p class="text-sm mt-4 text-gray-700">Maggy always has a great backpacker vibe and offers great value food with Peruvian, Mexican and Italian food all on the menu. Particular favorites are the pizza and ravioli dishes, a great take on the Italian original with its own distinct Andean influences and flavors. There are three places on Procuradores street, although the last one on the left has probably the most authentic and rustic character.</p>
                     </div>
                 </div>
             </section>
@@ -297,21 +326,21 @@
             <div class="h-screen flex">
                 <div class="my-10">
                     <div class="mb-5">
-                        <span class="text-primary font-semibold">Contenido</span>
+                        <span class="text-primary font-semibold">Contents</span>
                         <ul class="text-sm mt-3 ml-2 text-gray-500">
-                            <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#consejos">Consejos de viajes</a></li>
+                            <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#consejos">Travel tips</a></li>
                             <li>
                                 <ul class="ml-4">
-                                    <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#informacion">Información general</a></li>
-                                    <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#salud">Salud y seguridad</a></li>
+                                    <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#informacion">General information</a></li>
+                                    <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#salud">Health and safety</a></li>
                                 </ul>
                             </li>
-                            <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#restaurantes">Restaurantes de Cusco</a></li>
+                            <li class="pb-2 hover:text-secondary transform hover:scale-105 transition duration-500"><a href="/f-a-q#restaurantes">Cusco Restaurants</a></li>
                         </ul>
                     </div>
                     <hr>
                     <div class="mt-5">
-                        <span class="text-primary font-semibold">Tours recomendados</span>
+                        <span class="text-primary font-semibold">Recommended tours</span>
                         @foreach ($paquetes as $paquete)
                             <a href="/en-tours/{{$paquete->url}}">
                                 <div class="flex flex-cols-2 px-2 py-5 lg:gap-5 gap-2 items-center">
