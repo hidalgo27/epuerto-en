@@ -138,63 +138,9 @@
 
     </header>
 
-    <header>
-        <div class="relative flex justify-between shadow h-20 bg-primary dark:bg-gray-800 flex flex-wrap z-30">
-            <div class="pt-1">
-                <a href="http://epuertotravelperu.com"><img src="{{asset('images/iconos/espana.png')}}" alt="" class="w-9 ml-3"></a>
-            </div>
-            <div class="flex flex-row pt-2 px-3 gap-3">
-                <a href="https://www.facebook.com/EpuertoTravelPeru" target="_blank"><img src="{{asset('images/iconos/facebook.png')}}" class="h-7 w-7 transform hover:scale-125 transition duration-500 "></a>
-                <a href="https://www.youtube.com/user/EpuertoPeruTravelPer" target="_blank"><img src="{{asset('images/iconos/youtube.png')}}" class="h-7 w-7 transform hover:scale-125 transition duration-500"></a>
-                <div class=" bg-green-500 rounded-full h-7 w-7 flex items-center justify-center transform hover:scale-125 transition duration-500">
-                    <a href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d3836582-Reviews-Epuerto_Peru_Travel_Tours-Cusco_Cusco_Region.html" target="_blank"><img src="{{asset('images/iconos/tripadvisor.png')}}" class="h-8 w-8 "></a>
-                </div>
-            </div>
-        </div>
-    </header>
 
-    <nav class="banner-wrapper sticky -mt-9 lg:px-24 px-4 top-0 z-50">
-        <div class="banner">
-            <!-- This example requires Tailwind CSS v2.0+ -->
-            <div class="bg-white dark:bg-gray-800 rounded-xl shadow dark:bg-gray-800">
-                <nav class="dark:bg-gray-800">
-                    <div class="container lg:px-6 px-3 py-2 mx-auto md:flex md:justify-between md:items-center">
-                        <div class="flex items-center justify-between">
-                            <div>
-                                <a class="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="/">
-                                    <img src="{{asset('images/logo-epuerto.png')}}" alt="" class="w-60">
-                                </a>
-                            </div>
 
-                            <!-- Mobile menu button -->
-                            <div class="flex md:hidden">
-                                <button id="clos"type="button" class="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
-                                    <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-                                        <path fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-
-                        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-                        <div class="items-center md:flex toggle hidden">
-                            <div class="flex flex-col md:flex-row lg:mx-6 md::gap-0 gap-2">
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out"  href="/nosotros">About</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/en-tours">Best Cusco Tours</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/informacion-de-viaje">Information</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/hoteles">Hotels</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/f-a-q">FAQs</a>
-                                <a class="my-1 text-sm font-medium text-gray-700 dark:text-gray-200 hover:text-secondary dark:hover:text-indigo-400 md:mx-4 md:my-0 transform hover:-translate-x-2 transition duration-500 ease-in-out" href="/contacto">Contact</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </nav>
-            </div>
-
-        </div>
-    </nav>
-
+  
     @yield('content')
     <section class="grid grid-cols-2 sm:grid-cols-6 px-24 gap-12 sm:gap-24 bg-gray-100 py-6">
         <div class="">
