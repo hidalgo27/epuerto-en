@@ -127,58 +127,6 @@
         @endforeach
     </section>
 
-    <section class="px-24 mt-24 grid grid-cols-1 sm:grid-cols-7 gap-6 sm:gap-4 bg-gray-200 py-6">
-        <div class="">
-            <a class="venobox block relative" data-gall="myGallery" framewidth="100" href="{{asset('doc/marca-peru.jpg')}}">
-                <img src="{{asset('images/logos/marca-peru.png')}}" alt="">
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bg-primary bg-opacity-70 p-1 rounded-md h-5 w-5 text-gray-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                    </svg>
-                </div>
-            </a>
-        </div>
-        <div class="">
-            <a class="venobox block relative" data-gall="myGallery"  href="{{asset('doc/Caltur.jpg')}}">
-                <img src="{{asset('images/logos/caltur.png')}}" alt="">
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bg-primary bg-opacity-70 p-1 rounded-md h-5 w-5 text-gray-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                    </svg>
-                </div>
-            </a>
-        </div>
-        <div class="">
-            <a class="venobox block relative" data-gall="myGallery"  href="{{asset('doc/Dircetur.jpg')}}">
-                <img src="{{asset('images/logos/gercetur.png')}}" alt="">
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bg-primary bg-opacity-70 p-1 rounded-md h-5 w-5 text-gray-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
-                    </svg>
-                </div>
-            </a>
-        </div>
-        <div class="">
-            <a href="https://www.tripadvisor.com.pe/Attraction_Review-g294314-d3836582-Reviews-Epuerto_Peru_Travel_Tours-Cusco_Cusco_Region.html" target="_blank" class="relative block">
-                <img src="{{asset('images/logos/tripadvisor.png')}}" alt="">
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="bg-primary bg-opacity-70 p-1 rounded-md h-5 w-5 text-gray-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-                    </svg>
-                </div>
-            </a>
-        </div>
-        <div class="">
-            <img src="{{asset('images/logos/iglta.jpg')}}" alt="">
-        </div>
-        <div class="">
-            <img src="{{asset('images/logos/promperu.png')}}" alt="">
-        </div>
-        <div class="">
-            <img src="{{asset('images/logos/logo-registrado.png')}}" alt="">
-        </div>
-
-    </section>
 
     <section class="flex flex-col lg:flex-row mb-24 items-center">
         <div class="lg:px-24 lg:py-32 p-16 bg-primary text-gray-50 shadow-xl lg:w-3/4 xl:w-3/4 2xl:w-1/2">
