@@ -103,7 +103,7 @@
         </div>
     </section>
 
-    <section class="md:px-24 px-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <section class="md:px-24 mb-24 px-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
         @foreach ($paquetes as $paquete)
             <div class="group shadow-lg rounded-xl overflow-hidden">
                 <div class="overflow-hidden relative">
