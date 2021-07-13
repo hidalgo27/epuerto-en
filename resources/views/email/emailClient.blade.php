@@ -4,7 +4,7 @@
     <tr>
       <td>
         <p>
-          Gracias por contactarnos, un representante de EPUERTO se comunicará con usted a la brevedad.
+          Thank you for contacting us, an EPUERTO representative will contact you shortly.
         </p>
       </td>
     </tr>
