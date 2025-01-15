@@ -259,7 +259,7 @@
 
 @endsection
 @push('scripts')
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script>
         $(document).ready(function(){
             $('.venobox').venobox({
